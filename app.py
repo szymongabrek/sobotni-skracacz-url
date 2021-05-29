@@ -12,5 +12,5 @@ def success():
 
 @app.route("/add", methods=["POST"])
 def add():
-    # Zrób coś aby wygenerować skrócony URL i zapamiętaj adres
+    # Zrób coś aby wygenerować skrócony URL i zapamiętaj adres !
     return redirect("/success")
